@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OutWireSignInButton">
+        <attr name="src_logo" format="reference"/>
+        <attr name="height_logo" format="dimension"/>
+        <attr name="width_logo" format="dimension"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="text" format="string"/>
+        <attr name="text_color" format="color"/>
+    </declare-styleable>
+
+
+</resources>

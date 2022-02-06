@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/create_event_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:navigationIconTint="@color/white"
+        app:title="@string/create_event"
+        app:titleTextColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".main.CreateEventActivity">
+
+            <ImageView
+                android:id="@+id/create_event_image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/beer" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/title_of_the_event" />
+
+            <EditText
+                android:id="@+id/edittext_event_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:ems="10"
+                android:hint="@string/title"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/event_description" />
+
+            <EditText
+                android:id="@+id/editText_event_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+
+                android:hint="@string/description"
+                android:inputType="textMultiLine"
+                android:maxLength="300"
+                android:maxLines="5"
+                android:minLines="3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/number_of_participants" />
+
+                <EditText
+                    android:id="@+id/editText_number_participants"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:hint="@string/_000"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:minEms="2"
+                    android:textAlignment="center" />
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/switch_event_number_of_participants"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/price" />
+
+                <EditText
+                    android:id="@+id/edittText_event_price"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:ems="5"
+                    android:hint="@string/_0_00"
+                    android:inputType="numberDecimal"
+                    android:maxLength="9"
+                    android:textAlignment="textEnd" />
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/switch_event_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:checked="true" />
+
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="4dp">
+
+                <fragment android:id="@+id/autocomplete_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/date" />
+
+            <DatePicker
+                android:id="@+id/date_picker_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner" />
+
+
+
+
+            <com.outwire.custom.views.OutWireSignInButton
+                android:id="@+id/create_event_button"
+                android:layout_width="@dimen/sign_button_width"
+                android:layout_height="@dimen/sign_button_height"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="?attr/colorPrimary"
+                app:text="@string/create_event"
+                app:text_color="?attr/colorOnPrimary"
+                app:text_size="@dimen/sign_button_text" />
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+</LinearLayout>

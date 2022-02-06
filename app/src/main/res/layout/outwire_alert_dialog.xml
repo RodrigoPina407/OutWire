@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardCornerRadius="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/alertBackground">
+
+        <TextView
+            android:id="@+id/alertTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:textColor="?attr/colorOnPrimary"
+            android:ems="10"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:maxLines="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/alertMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:ems="12"
+            android:gravity="center"
+            android:text="@string/alert_message_incorrect_password"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/alertTitle" />
+
+        <TextView
+            android:id="@+id/alertButton"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="@color/alertBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:hapticFeedbackEnabled="true"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/alertButton2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/separator" />
+
+        <TextView
+            android:id="@+id/alertButton2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:background="@color/alertBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:hapticFeedbackEnabled="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/alertButton"
+            app:layout_constraintTop_toBottomOf="@id/separator" />
+
+
+        <View
+            android:id="@+id/separator"
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/separator_grey"
+            app:layout_constraintBottom_toTopOf="@+id/alertButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/alertMessage" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

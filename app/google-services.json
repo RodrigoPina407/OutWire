@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "666527762328",
+    "firebase_url": "https://outwire-2d110-default-rtdb.firebaseio.com",
+    "project_id": "outwire-2d110",
+    "storage_bucket": "outwire-2d110.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666527762328:android:4c88c9b10c1a6540c7cded",
+        "android_client_info": {
+          "package_name": "com.outwire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666527762328-b5c34tthfdma6k4j094k4rlrp8pptmi4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.outwire",
+            "certificate_hash": "4da08278a193aaa16197efbfb3873e15fd8ee1b3"
+          }
+        },
+        {
+          "client_id": "666527762328-dcli7ebq2rmho7a22f9oo4au9bfvdjci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDjqP0jsGLN-FOl_r0xI9S_KVzbfq0FdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666527762328-dcli7ebq2rmho7a22f9oo4au9bfvdjci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

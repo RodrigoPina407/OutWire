@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FB8C00</color>
+    <color name="outwire_teal">#00B8D4</color>
+    <color name="edittext_border_color">#807F7F</color>
+    <color name="green">#43A047</color>
+    <color name="press_grey">#6F7C7C7C</color>
+    <color name="separator_grey">#A5A5A5</color>
+    <color name="clickable_subtext_blue">@color/outwire_teal</color>
+    <color name="facebook_blue">#3b5998</color>
+    <color name="google_red">#DD4437</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="alertBackground">#514E4E</color>
+    <color name="scrim_background">#99000000</color>
+</resources>

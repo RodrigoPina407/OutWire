@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name" translatable="false">OutWire</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="create_account"><u>Create account</u></string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="forgot_your_password"><u>Forgot your password?</u></string>
+    <string name="recover"><u>Recover Password</u></string>
+    <string name="username">Username</string>
+    <string name="logo">Logo</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="or_sign_in_with">OR SIGN IN WITH</string>
+    <string name="sign_in_options_separator" translatable="false">sign_in_options_separator</string>
+    <string name="google" translatable="false">Google</string>
+    <string name="facebook" translatable="false">facebook</string>
+    <string name="register">Register</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="password_field">Password:</string>
+    <string name="reenter_password">Reenter Password:</string>
+    <string name="username_register">Username:</string>
+    <string name="profile">Profile</string>
+    <string name="phone_number">Phone number:</string>
+    <string name="phone_number_">Phone number</string>
+    <string name="email_field_empty">Email field is empty</string>
+    <string name="password_field_empty">Password field is empty</string>
+    <string name="wrong_credentials">Wrong credentials inserted</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="google_sign_in_failed">Google Sign In Failed</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="non_binary">Non-Binary</string>
+    <string name="other">Other</string>
+    <string name="select_gender">Select Gender</string>
+    <string name="title_activity_events" translatable="false">EventsActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="alert_incorrect_password_title">"Incorrect password for "</string>
+    <string name="alert_message_incorrect_password">Incorrect password inserted. Please, try again.</string>
+    <string name="try_again">Try again</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sure_want_signout">Are you sure you want to leave?</string>
+    <string name="passwords_dont_match">Password fields don\'t match</string>
+    <string name="username_field_empty">Username field is empty</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="feed" translatable="false">Feed</string>
+    <string name="chat" translatable="false">Chat</string>
+    <string name="notifications">Notifications</string>
+    <string name="account">Account</string>
+    <string name="help">Help</string>
+    <string name="events">Events</string>
+    <string name="official">Official</string>
+    <string name="search">Search</string>
+    <string name="add_event">Add Event</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="name">Name</string>
+    <string name="enter_your_name_username_password">Enter your name, username and password</string>
+    <string name="next">Next</string>
+    <string name="title_of_the_event">Title of the event</string>
+    <string name="title">Title</string>
+    <string name="event_description">Event Description</string>
+    <string name="description">Description</string>
+    <string name="number_of_participants">Number of participants:</string>
+    <string name="create_event">Create Event</string>
+    <string name="price">Price:</string>
+    <string name="date">Date:</string>
+    <string name="phone">Phone</string>
+    <string name="back">Back</string>
+    <string name="name_field_empty">Name field is empty</string>
+    <string name="minimum_password_length">Password requires a minimum of 8 characters</string>
+    <string name="invalid_email">Invalid Email Address</string>
+    <string name="register_failed">Registration failed. Account already exists!</string>
+    <string name="register_successful">Registration successful</string>
+    <string name="invalid_account">Invalid account</string>
+    <string name="try_another_account">Invalid account. Please, try another email, username or phone number.</string>
+    <string name="email_in_use">Email already in use</string>
+    <string name="link_auth_methods">This email address is already in use. Try signing-in using another method and synchronize with other authentication providers in the settings menu.</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="_0_00" translatable="false">€0,00</string>
+    <string name="_000" translatable="false">00</string>
+    <string name="currency_sign" translatable="false">€</string>
+    <string name="infinity_symbol" translatable="false">∞</string>
+    <string name="no_price">No price</string>
+    <string name="sign_in_failed">Sign in failed</string>
+    <string name="problem_ocurred">A problem occurred!</string>
+    <string name="choose_an_email_and_password_to_register_an_account">Choose an Email and Password to register an account</string>
+    <string name="complete_registration">Complete Registration</string>
+    <string name="invalid_acc_pls_register">This is an invalid account. Please, go to the create account page and register.</string>
+    <string name="verification_email_sent_to">Verification email sent to\u0020</string>
+    <string name="verification_email_sent">Verification email sent!</string>
+    <string name="send_again"><u>Send again</u></string>
+    <string name="send_again_in">Send again in:\u0020</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="pls_verify_email_data_will_be_deleted">Please verify this email address. If unverified the data will be deleted, one hour after registration!</string>
+    <string name="username_unavailable">This username is unavailable!</string>
+    <string name="username_three_characters">Username requires a minimum of 3 characters!</string>
+    <string name="username_min_max_char">Username as minimum of 3 and a maximum of 30 characters!</string>
+    <string name="select_img_gallery">Select an Image from the Gallery</string>
+    <string name="failed_load_img">Failed to load an image!</string>
+    <string name="img_upload_failed">Image upload failed!</string>
+    <string name="country_code_picker_item" translatable="false">%1$s (+%2$d)</string>
+    <string name="invalide_phone_number">Invalid Phone Number!</string>
+    <string name="event_created">Event Created</string>
+    <string name="my_events">My Events</string>
+    <string name="going">Going</string>
+    <string name="user_shared_file">USER_FILE</string>
+    <string name="shared_pref_user_key">USER_INFO</string>
+    <string name="user_register_key">USER_REGISTER</string>
+    <string name="user_register_pwd_key">USER_REGISTER_PASSWORD</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
